@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Логічні ланцюжки | Logic Owl</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><a href="../index.html"><img src="../img/logo.svg" alt="Logic Owl" width="150"></a></div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="../index.html#catalog">Каталог</a></li>
+                <li><a href="rating.html">Рейтинг</a></li>
+                <li><a href="parents.html">Батькам</a></li>
+            </ul>
+        </nav>
+        <div class="game-info">🧩 Рівень: Середній</div>
+    </header>
+
+    <main class="categories" style="min-height: 80vh;">
+        <section class="hero-content" style="text-align: center; margin-bottom: 40px;">
+            <h1>Продовжи <span class="accent">ланцюжок</span></h1>
+            <p>Яка фігура має бути наступною? Подумай добре!</p>
+        </section>
+
+        <div class="help-zone">
+            <details class="owl-help-details">
+                <summary class="btn btn-secondary help-trigger">
+                    <span>🦉 Потрібна допомога?</span>
+                </summary>
+                <div class="hint-content glass fade-in">
+                    <p><strong>Порада Сови:</strong> Подивись уважно на колір фігур. Вони чергуються чи повторюються?</p>
+                </div>
+            </details>
+        </div>
+
+        <div class="card glass" style="display: flex; justify-content: space-around; padding: 60px; font-size: 3rem;">
+            <span>🔴</span> <span>🟦</span> <span>🔴</span> <span>🟦</span> <span style="border-bottom: 4px dashed var(--primary); width: 60px; display: inline-block;">?</span>
+        </div>
+
+        <div class="card-grid" style="margin-top: 40px;">
+            <button class="card glass" style="cursor: pointer;"><h3>🟡 Коло</h3></button>
+            <button class="card glass" style="cursor: pointer;"><h3>🔴 Коло</h3></button>
+            <button class="card glass" style="cursor: pointer;"><h3>🟦 Квадрат</h3></button>
+        </div>
+    </main>
+</body>
+</html>
